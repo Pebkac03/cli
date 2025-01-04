@@ -68,8 +68,9 @@ Map<String, RenderFunction> renderFunctions = {
     return {
       kTemplatePropertyWidgetName: value.pascalCase,
       kTemplatePropertyWidgetFileName: '${value.snakeCase}.dart',
-      kTemplatePropertyWidgetModelName: '${value.pascalCase}Model',
-      kTemplatePropertyWidgetModelFileName: '${value.snakeCase}_model.dart',
+      kTemplatePropertyWidgetViewModelName: '${value.pascalCase}ViewModel',
+      kTemplatePropertyWidgetViewModelFileName:
+          '${value.snakeCase}_viewmodel.dart',
       kTemplatePropertyWidgetFolderName: value.snakeCase,
       kTemplatePropertyRelativeLocatorFilePath: getFilePath(builder: 'locator'),
     };

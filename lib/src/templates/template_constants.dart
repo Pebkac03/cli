@@ -122,9 +122,10 @@ const String kTemplatePropertyWidgetName = 'widgetName';
 
 const String kTemplatePropertyWidgetFileName = 'widgetFileName';
 
-const String kTemplatePropertyWidgetModelName = 'widgetModelName';
+const String kTemplatePropertyWidgetViewModelName = 'widgetViewModelName';
 
-const String kTemplatePropertyWidgetModelFileName = 'widgetModelFileName';
+const String kTemplatePropertyWidgetViewModelFileName =
+    'widgetViewModelFileName';
 
 const String kTemplatePropertyWidgetFolderName = 'widgetFolderName';
 
